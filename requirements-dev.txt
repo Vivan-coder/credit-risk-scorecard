@@ -1,0 +1,8 @@
+# Full development environment: runtime + training (WoE binning), notebook, tests.
+-r requirements.txt
+optbinning==1.0.0
+pyarrow==26.0.1
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+pytest==9.2.0

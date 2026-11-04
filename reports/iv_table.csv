@@ -1,0 +1,19 @@
+feature,iv,decision,strength
+total_late,1.4422595106714586,kept,very strong (check for leakage)
+any_late,1.1870175291135685,dropped: |corr|=0.94 with higher-IV 'total_late',very strong (check for leakage)
+utilization,1.1505921774653953,kept,very strong (check for leakage)
+late_90_plus,0.8786817743564633,dropped: |corr|=0.60 with higher-IV 'total_late',very strong (check for leakage)
+late_30_59,0.7448519802082321,dropped: |corr|=0.87 with higher-IV 'total_late',very strong (check for leakage)
+late_60_89,0.5894327622733663,dropped: |corr|=0.57 with higher-IV 'total_late',very strong (check for leakage)
+age,0.26246867310050404,kept,medium
+over_limit,0.2325074166549789,kept,medium
+open_credit_lines,0.10628584969894816,kept,medium
+income_per_dependent,0.10579931802143697,kept,medium
+monthly_income,0.07603824781419805,dropped: |corr|=0.66 with higher-IV 'income_per_dependent',weak
+dependents,0.03474677934095981,kept,weak
+real_estate_loans,0.01361219673945061,dropped: IV <= 0.02,useless
+debt_ratio,0.013561432618859722,dropped: IV <= 0.02,useless
+income_missing,0.007557814442809098,dropped: IV <= 0.02,useless
+real_estate_share,0.007495370081051467,dropped: IV <= 0.02,useless
+late_code_flag,0.0,dropped: IV <= 0.02,useless
+dependents_missing,0.0,dropped: IV <= 0.02,useless

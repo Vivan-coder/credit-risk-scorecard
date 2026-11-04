@@ -1,0 +1,31 @@
+{
+ "A_scorecard": {
+  "borrowers": 30000,
+  "total_ead_bhd": 363548325.344,
+  "expected_loss_bhd": 10045908.980231496,
+  "el_rate": 0.02763293977692172,
+  "realised_loss_bhd": 9944005.485600002,
+  "unexpected_loss_999_bhd": 18297238.214334674,
+  "unexpected_loss_rate": 0.05032959015014385,
+  "avg_pd": 0.06754044630604086
+ },
+ "B_lightgbm": {
+  "borrowers": 30000,
+  "total_ead_bhd": 363548325.344,
+  "expected_loss_bhd": 9980579.31613895,
+  "el_rate": 0.027453239694324092,
+  "realised_loss_bhd": 9944005.485600002,
+  "unexpected_loss_999_bhd": 16977292.155285824,
+  "unexpected_loss_rate": 0.046698859468604116,
+  "avg_pd": 0.06738232315608154
+ },
+ "assumptions": {
+  "lgd": 0.45,
+  "usd_to_bhd": 0.376,
+  "exposure_multiple_of_monthly_income": 6,
+  "ead_min_usd": 1000.0,
+  "ead_max_usd": 50000.0,
+  "median_income_usd": 5400.0,
+  "evaluated_on": "test set (30,000 borrowers)"
+ }
+}

@@ -1,0 +1,20 @@
+# virtual env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# raw data: never commit (Kaggle licence). Only the small demo sample is allowed.
+data/*
+!data/sample.csv
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.env
+kaggle.json
+
+# personal interview-prep notes: keep out of the public repo
+STUDY_GUIDE.md

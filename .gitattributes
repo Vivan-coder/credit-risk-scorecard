@@ -1,0 +1,4 @@
+# Never convert line endings in saved model artefacts or binary files.
+models/* -text
+*.png binary
+*.parquet binary

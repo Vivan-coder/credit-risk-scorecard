@@ -1,6 +1,6 @@
 # Credit Risk Scorecard (BHD)
 
-> **🔗 Live demo:** _link goes here once deployed (see [Deploy](#deploy-to-streamlit-community-cloud))_
+> **🔗 Live demo: [credit-risk-scorecard-nov.streamlit.app](https://credit-risk-scorecard-nov.streamlit.app/)**
 
 Built a credit default model on **150,000 real borrowers**. It combines a traditional **WoE scorecard** with a **gradient-boosted model**,
 explains every decision with **SHAP**, and turns predicted default risk into **expected loss in BHD** in a live Streamlit app.
@@ -164,6 +164,6 @@ The whole pipeline is deterministic: retraining reproduces the saved model files
 2. At [share.streamlit.io](https://share.streamlit.io) choose **Create app** -> *Deploy a public app from GitHub*.
 3. Repository: this repo, branch `main`, main file path **`app/streamlit_app.py`**.
 4. **Advanced settings -> Python version: 3.13** (the version this project was built and tested on).
-5. Deploy, then paste the live URL at the top of this README.
+5. Deploy. Live app: https://credit-risk-scorecard-nov.streamlit.app/
 
 The deployed app installs only `requirements.txt`; it needs no raw data and no training libraries (`optbinning` is only used when fitting).

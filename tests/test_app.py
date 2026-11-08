@@ -26,7 +26,7 @@ def metric(at, label):
 def test_default_load_has_no_exceptions_and_three_tabs():
     at = fresh()
     assert not at.exception
-    assert [t.label for t in at.tabs] == ["🧾 Score an applicant", "📊 Portfolio view", "📘 Model card"]
+    assert [t.label for t in at.tabs] == ["Score an applicant", "Portfolio view", "Model card"]
     assert banner(at) == "Review"                                   # default example is the borderline one
 
 

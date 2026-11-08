@@ -32,7 +32,7 @@ from src.woe import BASE_ODDS, BASE_SCORE, PDO, Scorecard  # noqa: E402
 REPORTS, FIGS = ROOT / "reports", ROOT / "reports" / "figures"
 BLUE, RED, GREY = "#4C78A8", "#E45756", "#888888"
 
-st.set_page_config(page_title="Credit Risk Scorecard (BHD)", page_icon="🏦", layout="wide")
+st.set_page_config(page_title="Credit Risk Scorecard (BHD)", layout="wide")
 
 
 # ---------------------------------------------------------------------------------------------
@@ -92,10 +92,10 @@ def pct(v) -> str:
     return "n/a" if pd.isna(v) else f"{v:.2%}"
 
 
-st.title("🏦 Credit Risk Scorecard")
+st.title("Credit Risk Scorecard")
 st.caption("From a loan application to an approve / review / decline decision and an expected loss in BHD. "
            "**Demo on public non-Bahraini data (see the Model card tab); not for real lending decisions.**")
-tab1, tab2, tab3 = st.tabs(["🧾 Score an applicant", "📊 Portfolio view", "📘 Model card"])
+tab1, tab2, tab3 = st.tabs(["Score an applicant", "Portfolio view", "Model card"])
 
 # =============================================================================================
 # TAB 1: score an applicant

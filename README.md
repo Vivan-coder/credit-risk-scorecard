@@ -1,6 +1,6 @@
 # Credit Risk Scorecard (BHD)
 
-> **🔗 Live demo: [credit-risk-scorecard-nov.streamlit.app](https://credit-risk-scorecard-nov.streamlit.app/)**
+> **Live demo: [credit-risk-scorecard-nov.streamlit.app](https://credit-risk-scorecard-nov.streamlit.app/)**
 
 Built a credit default model on **150,000 real borrowers**. It combines a traditional **WoE scorecard** with a **gradient-boosted model**,
 explains every decision with **SHAP**, and turns predicted default risk into **expected loss in BHD** in a live Streamlit app.
